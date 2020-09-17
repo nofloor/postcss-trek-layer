@@ -19,4 +19,4 @@ function trekLayer(options = defaults) {
 
 trekLayer.postcss = true;
 
-export default trekLayer;
+module.exports = trekLayer;
