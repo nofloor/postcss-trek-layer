@@ -1,4 +1,4 @@
-function trekLayer(options = defaults) {
+function trekLayer(options = {}) {
   return {
     postcssPlugin: 'postcss-trek-layer',
     Declaration(decl) {
